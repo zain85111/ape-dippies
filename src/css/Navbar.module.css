@@ -1,0 +1,29 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-in-out 0.2s;
+}
+
+a:hover{
+    color: rgb(144, 45, 236);
+}
+
+.active{
+    color: #E33292;
+}
