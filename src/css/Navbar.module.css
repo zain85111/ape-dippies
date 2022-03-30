@@ -13,14 +13,14 @@
     width: 70%;
 }
 
-a{
+.navLink{
     color: white;
     text-decoration: none;
     font-weight: bold;
     transition: ease-in-out 0.2s;
 }
 
-a:hover{
+.navLink:hover {
     color: rgb(144, 45, 236);
 }
 

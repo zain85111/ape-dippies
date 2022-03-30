@@ -5,6 +5,10 @@
   color: white;
 }
 
+a{
+  color: white;
+}
+
 .container{
   margin: 0 10%;
 }
@@ -17,6 +21,7 @@
   cursor: pointer;
   transition: ease-in-out;
   color: white;
+  font-size: 120%;
 
 }
 

@@ -1,0 +1,168 @@
+.visionSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.visionSectionContent {
+    padding: 5% 0;
+}
+
+.visionSectionContentHorz {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.visionSectionContentVert {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.visionHeading{
+    padding-bottom: 5% ;
+}
+
+
+.visionTitleSection{
+    display: flex;
+    align-items: flex-start;
+    height: 50px;
+    width: 120px;
+    background: url('../assets/colored-bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.visionTItle{
+    position: absolute;
+    left: 42%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.visionSectionContentVert2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.visionTItle2{
+    position: absolute;
+    left: 45%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.visionContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url('https://static.wixstatic.com/media/3ee487_5082908e128a473ea71063cb10c69c0c~mv2.png/v1/crop/x_0,y_268,w_2880,h_863/fill/w_1143,h_343,al_c,usm_0.66_1.00_0.01,enc_auto/Teaser%20Roadmap%20(1920%20x%20800%20px)%20(4).png');
+    background-size: cover;
+    padding: 3% 0;
+    border-radius: 15px;
+    box-shadow: black 0px 0 5px ;
+}
+
+
+.eventSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+    width: 60%;
+}
+
+
+.eventIconBg{
+    background: green;
+    border-radius: 30px;
+    border: solid 1px white;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+.eventIconBg:hover{
+    opacity: .8;
+}
+
+
+.bannerSection{
+    background: url('../assets/colored-bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bannerSectionContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.bannerSubTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.bannerBtnSection{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bannerBtn{
+    height: 40px;
+    width: 350px;
+    background: transparent;
+    border: solid 2px white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bannerBtn:hover{
+    background: white;
+    color: black;
+}
+
+.svgIcons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.svgIcon{
+    width: 20%;
+    height: 80%;
+    fill: white;
+}
+
+
