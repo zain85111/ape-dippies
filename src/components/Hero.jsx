@@ -10,11 +10,11 @@ const Hero = () => {
                 <div className={styles.heroContent}>
                     <span className={styles.heroTitle}>APE DIPPIES</span>
                     <div className={styles.btnSection}>
-                        <div className={styles.heroButtonBg+' defaultButton'}><span>join the movement</span></div>
+                        <div className={'buttonBgColored defaultButton'}><span>join the movement</span></div>
                         <div className={'defaultButton'}><span>Our NFT</span></div>
                         <div>
-                            <img src="https://static.wixstatic.com/media/aeb686ff41244d85bc1232fcf7325ec0.png/v1/fill/w_28,h_28,al_c,usm_0.66_1.00_0.01,enc_auto/aeb686ff41244d85bc1232fcf7325ec0.png" alt="Twitter" />
-                            <img src="https://static.wixstatic.com/media/3ee487_550a5b6295e34ab8a80c4f81e6c9412b~mv2.png/v1/fill/w_28,h_28,al_c,usm_0.66_1.00_0.01,enc_auto/3ee487_550a5b6295e34ab8a80c4f81e6c9412b~mv2.png" alt=" Opensea" />
+                            <img className={'cursor'} src="https://static.wixstatic.com/media/aeb686ff41244d85bc1232fcf7325ec0.png/v1/fill/w_28,h_28,al_c,usm_0.66_1.00_0.01,enc_auto/aeb686ff41244d85bc1232fcf7325ec0.png" alt="Twitter" />
+                            <img className={'cursor'} src="https://static.wixstatic.com/media/3ee487_550a5b6295e34ab8a80c4f81e6c9412b~mv2.png/v1/fill/w_28,h_28,al_c,usm_0.66_1.00_0.01,enc_auto/3ee487_550a5b6295e34ab8a80c4f81e6c9412b~mv2.png" alt=" Opensea" />
                         </div>
                     </div>
                     <div className={styles.heroContentInfo}>

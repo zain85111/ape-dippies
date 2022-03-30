@@ -2,6 +2,7 @@
   background: linear-gradient(to bottom right,purple, rebeccapurple, purple);
   min-height: 100vh;
   color: rebeccapurple;
+  color: white;
 }
 
 .container{
@@ -15,10 +16,20 @@
   border-radius: 100px;
   cursor: pointer;
   transition: ease-in-out;
-
+  color: white;
 
 }
 
 .defaultButton:hover {
   background: linear-gradient(to right, coral, rebeccapurple);
+}
+
+.buttonBgColored {
+  background: url('https://static.wixstatic.com/media/3ee487_10a889987cf74621b7bc934b69060fe5~mv2.gif');
+  background-size: cover;
+  border: none;
+}
+
+.cursor {
+  cursor: pointer;
 }

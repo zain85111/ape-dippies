@@ -1,0 +1,31 @@
+.contentSection{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0;
+}
+
+
+.contentSectionItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.contentSectionText{
+    height: 400px;
+}
+
+.contentSectionGif{
+    padding: 5% 0;
+}
+
+.contentImage{
+    width: 50%;
+}
+
+.contentGif{
+    width: 100%;
+}

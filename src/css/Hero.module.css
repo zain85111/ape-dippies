@@ -43,15 +43,6 @@
 
 
 
-
-.heroButtonBg{
-    background: url('https://static.wixstatic.com/media/3ee487_10a889987cf74621b7bc934b69060fe5~mv2.gif');
-    background-size: cover;
-    border: none;
-}
-
-
-
 .heroContent{
     height: fit-content;
     width: 60%;
