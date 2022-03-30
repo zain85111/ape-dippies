@@ -5,6 +5,8 @@
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
+    padding: 10% 0;
+    
 }
 
 .heroMain{
@@ -23,14 +25,20 @@
 }
 
 .heroImage{
-    width: 70%;
+    margin-bottom: 40%;
+    width: 100%;
 }
 
 .heroImageBg{
-    width: 50%;
-    /* background: url('https://static.wixstatic.com/media/3ee487_10a889987cf74621b7bc934b69060fe5~mv2.gif'); */
-    background-repeat:no-repeat ;
-    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 300px;
+    background: url('../assets/colored-bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .btnSection{

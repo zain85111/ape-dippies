@@ -11,7 +11,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 40%;
+}
+
+.contentImageBg1{
+    height: 300px;
+    background: url('../assets/colored-bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contentSectionText{
@@ -23,7 +30,7 @@
 }
 
 .contentImage{
-    width: 50%;
+    width: 60%;
 }
 
 .contentGif{

@@ -29,8 +29,11 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.heroImageBg}>
-                    <img src={heroImage} className={styles.heroImage} alt="hero image" />
+                {/* <div className={styles.contentSectionItems + ' ' + styles.contentImageBg1}>
+                    <img src={contentImage1} className={styles.contentImage} alt="image 1" />
+                </div> */}
+                <div className={styles.heroImageBg }>
+                    <img src={heroImage} className={styles.heroImage } alt="hero image" />
                 </div>
             </div>
             <p className={styles.heroText}>The hippie movement rocked the world, defining a generation of flower power and star children. A radical revolution. Where people set aside the woes and worries of the world, to find their spiritual center and get back to their natural roots.”</p>

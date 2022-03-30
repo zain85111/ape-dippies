@@ -1,5 +1,8 @@
 .App {
   background: linear-gradient(to bottom right,purple, rebeccapurple, purple);
+  background: url('https://static.wixstatic.com/media/3ee487_5082908e128a473ea71063cb10c69c0c~mv2.png/v1/crop/x_0,y_268,w_2880,h_863/fill/w_1143,h_343,al_c,usm_0.66_1.00_0.01,enc_auto/Teaser%20Roadmap%20(1920%20x%20800%20px)%20(4).png');
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   color: rebeccapurple;
   color: white;
@@ -11,6 +14,11 @@ a{
 
 .container{
   margin: 0 10%;
+}
+
+.mainBg{
+  background: url('https://static.wixstatic.com/media/3ee487_5082908e128a473ea71063cb10c69c0c~mv2.png/v1/crop/x_0,y_268,w_2880,h_863/fill/w_1143,h_343,al_c,usm_0.66_1.00_0.01,enc_auto/Teaser%20Roadmap%20(1920%20x%20800%20px)%20(4).png');
+  background-size: cover;
 }
 
 .defaultButton {

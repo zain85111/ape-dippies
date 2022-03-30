@@ -4,7 +4,7 @@ import styles from '../css/Vision.module.css'
 
 const VisionSection = () => {
     return (
-        <div>
+        <div className='mainBg'>
             <div className={styles.visionSection + ' container'}>
                 <div className={styles.visionHeading}>
                     <div className={styles.visionColoredBg}>
