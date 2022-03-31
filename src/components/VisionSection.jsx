@@ -1,38 +1,38 @@
 import React from 'react'
 import styles from '../css/Vision.module.css'
-
+import titleBg from '../assets/hero image bkg.gif'
 
 const VisionSection = () => {
     return (
-        <div className='mainBg'>
+        <div className={styles.visionColoredBg}>
             <div className={styles.visionSection + ' container'}>
                 <div className={styles.visionHeading}>
-                    <div className={styles.visionColoredBg}>
-                    </div>
-                    <h2>Your one-stop Filipino community committed to educating, investing, and thriving in this new digital world we are building with crypto and the future of the internet; THE METAVERSE.</h2>
+                    <span>Your one-stop Filipino community committed to educating, investing, and thriving in this new digital world we are building with crypto and the future of the internet; THE METAVERSE.</span>
                 </div>
                 <div className={styles.visionTitleSection}>
+                    <img className={styles.titleBg} src={titleBg} />
                     <span className={ styles.visionTItle}>OUR VISION</span>
                 </div>
                 <div  className={styles.visionSectionContentHorz}>
                     <div className={styles.visionSectionContentVert}>
                         <h3>Leading Filipino NFT community</h3>
-                        <p>shaping the future with crypto and financial literacy in the Philippines.</p>
+                        <span>shaping the future with crypto and financial literacy in the Philippines.</span>
                     </div>
                     <div className={styles.visionSectionContentVert}>
                         <h3>Onboard and welcome</h3>
-                        <p>people and serve as their foundation to the world of cryptocurrencies, NFTs, metaverse, and investing.</p>
+                        <span>people and serve as their foundation to the world of cryptocurrencies, NFTs, metaverse, and investing.</span>
                     </div>
                     <div className={styles.visionSectionContentVert}>
                         <h3>Leading Filipino NFT community</h3>
-                        <p>helping each other learn, connect, and thrive in this fast emerging industry.</p>
+                        <span>helping each other learn, connect, and thrive in this fast emerging industry.</span>
                     </div>
                 </div>
 
                 {/* Vision Content  */}
                 <div className={styles.visionContent +" container "}>
                     <div className={styles.visionTitleSection}>
-                        <span className={ styles.visionTItle2}>OUR NFT</span>
+                        <img className={styles.titleBg} src={titleBg} />
+                        <span className={ styles.visionTItle}>OUR NFT</span>
                     </div>
                     <div  className={styles.visionSectionContentHorz}>
                         <div className={styles.visionSectionContentVert2}>
@@ -60,11 +60,17 @@ const VisionSection = () => {
                 </div>
             </div>
 
-            {/* Banner */}
+            
+            <img className={'polyImg2'} src="https://static.wixstatic.com/media/3ee487_81cf6a29614946aeb19f146a9a62d0b0~mv2.png/v1/fill/w_180,h_181,al_c,usm_0.66_1.00_0.01,enc_auto/15.png" alt="Bored Punks of Society - Filipino NFT" />
+            <img className='circleImg3' src="https://static.wixstatic.com/media/3ee487_06a094103bac42be8f84b90672b07203~mv2.png/v1/fill/w_183,h_183,al_c,usm_0.66_1.00_0.01,enc_auto/12.png" alt="Filipino Metaverse NFT - Bored Punks of Society" />
+            <img className='loopImg2' src="https://static.wixstatic.com/media/3ee487_510b48f98f8d48f0968b396439b89451~mv2.png/v1/fill/w_245,h_245,al_c,usm_0.66_1.00_0.01,enc_auto/13.png" alt="Filipino Metaverse NFT - Bored Punks of Society" />
+
+
+                       {/* Banner */}
             <div className={styles.bannerSection}>
                 <div className={styles.bannerSectionContent+" container"}>
                     <div>
-                        <p className={styles.bannerTitle}>Help us build the community!</p>
+                        <span className={styles.bannerTitle}>Help us build the community!</span>
                         <p className={styles.bannerSubTitle}>Have any questions, inquiries, or suggestions? Hop on to the community Discord server for more information!</p>
                     </div>
                     <div className={styles.bannerBtnSection}>

@@ -1,28 +1,79 @@
 .contentSection{
     display:  flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 5% 0;
+    padding-top: 20% ;
+    padding-bottom: 10%;
+}
+
+.contentBg{
+    background: url('../assets/hero.webp');
+    background: url('https://static.wixstatic.com/media/3ee487_3a048bbe57f2431f91934aec9b110809~mv2.png/v1/fill/w_1484,h_1253,al_c,usm_0.66_1.00_0.01,enc_auto/3ee487_3a048bbe57f2431f91934aec9b110809~mv2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 .contentSectionItems{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 40%;
+    text-align: left;
+    height: 300px;
+    width: 50%;
 }
 
 .contentImageBg1{
     height: 300px;
-    background: url('../assets/colored-bg.gif');
+    width: 500px;
+    background: url('../assets/Teaser.png');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
 }
 
-.contentSectionText{
-    height: 400px;
+.contentImageBg2{
+    height: 235px;
+    width: 460px;
+    background: url('../assets/metaverse.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px white;
+}
+
+.contentSectionTextHeading{
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    /* font-family: wfont_0886c5_1e8688c51612459a8a384073f35b0468,wf_1e8688c51612459a8a384073f,orig_coolveticargregular; */
+    text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+    
+}
+
+.contentSectionTextColored{
+    text-shadow: rgb(10 189 240 / 30%) 3px 3px 0px, rgb(254 1 1 / 30%) -3px -3px 0px;
+}
+
+
+
+.contentSectionTextHeadingTitle{
+    margin-right: 20px;
+    text-align: left;
+}
+
+.contentSectionTextSub{
+    font-family: poppins-extralight,poppins,sans-serif;
+
+    font-size: 18px;
 }
 
 .contentSectionGif{
@@ -31,8 +82,10 @@
 
 .contentImage{
     width: 60%;
+    margin-bottom: 30px;
 }
 
 .contentGif{
     width: 100%;
+    padding-top: 10%;
 }

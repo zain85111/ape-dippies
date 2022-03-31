@@ -8,24 +8,40 @@
     padding: 10% 0;
     
 }
+.heroBg {
+    background: url('../assets/hero.webp');
+    background: url('https://static.wixstatic.com/media/3ee487_3a048bbe57f2431f91934aec9b110809~mv2.png/v1/fill/w_1484,h_1253,al_c,usm_0.66_1.00_0.01,enc_auto/3ee487_3a048bbe57f2431f91934aec9b110809~mv2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
 .heroMain{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    /* background-color: red; */
 }
+
 .heroText{
     text-align: center;
     width: 80%;
+    font-family: poppins-extralight,poppins,sans-serif;
+    line-height: normal;
+    text-align: center;
+    font-size: 15px;
+
 }
 
 .heroTitle{
     font-size: 5rem;
     font-weight: bold;
+    color:#F3F3F3;
+    text-shadow:rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
 }
 
 .heroImage{
-    margin-bottom: 40%;
+    margin-bottom: 30%;
     width: 100%;
 }
 
@@ -39,6 +55,9 @@
     background: url('../assets/colored-bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid 1px white;
+    box-shadow:rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
+
 }
 
 .btnSection{
@@ -49,11 +68,9 @@
     padding: 40px 0;
 }
 
-
-
 .heroContent{
     height: fit-content;
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -71,12 +88,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 
 
+.heroContentInfoTextMd{
+    font-size: 18px;
+}
 .heroContentInfoTextLg{
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -86,10 +107,19 @@
 }
 
 .heroBanner{
+    position: relative;
+    top: 230px;
     width: 100%;
     background: url('https://static.wixstatic.com/media/3ee487_10a889987cf74621b7bc934b69060fe5~mv2.gif');
     display: flex;
     justify-content: space-around;
     border: solid 2px white;
     border-radius: 20px;
+    font-weight: bold;
+    font-family: poppins-semibold,poppins,sans-serif;
+    
+}
+
+.coloredText{
+    color: #0BBC87;
 }
